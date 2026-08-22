@@ -1,0 +1,50 @@
+being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control thisbehavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\metrics\_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control thisbehavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+C:\Users\HP\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\metrics\_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control thisbehavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+
+==================================================
+           FINAL COMPARATIVE SUMMARY
+==================================================
+
+Model: RNN
+Final Test Accuracy: 55.56%
+Classification Report:
+                 precision    recall  f1-score   support
+
+Not Recommended       0.00      0.00      0.00       160
+    Recommended       0.56      1.00      0.71       200
+
+       accuracy                           0.56       360
+      macro avg       0.28      0.50      0.36       360
+   weighted avg       0.31      0.56      0.40       360
+
+
+Model: LSTM
+Final Test Accuracy: 55.56%
+Classification Report:
+                 precision    recall  f1-score   support
+
+Not Recommended       0.00      0.00      0.00       160
+    Recommended       0.56      1.00      0.71       200
+
+       accuracy                           0.56       360
+      macro avg       0.28      0.50      0.36       360
+   weighted avg       0.31      0.56      0.40       360
+
+
+Model: GRU
+Final Test Accuracy: 55.56%
+Classification Report:
+                 precision    recall  f1-score   support
+
+Not Recommended       0.00      0.00      0.00       160
+    Recommended       0.56      1.00      0.71       200
+
+       accuracy                           0.56       360
+      macro avg       0.28      0.50      0.36       360
+   weighted avg       0.31      0.56      0.40       360
+
+Execution finished successfully!
